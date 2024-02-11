@@ -12,15 +12,19 @@ struct ContentView: View {
         TabView {
             HomeView()
                 .tabItem {
-                    Label("Home", systemImage: "person")
+                    Label("Home", systemImage: "house.circle.fill")
+                }
+            
+            ExerciseView()
+                .tabItem {
+                    Label("New", systemImage: "figure.walk.circle.fill")
                 }
             SettingsView()
                 .tabItem {
                     Label("Settings", systemImage: "gear")
                 }
         }
-        .padding()
-        .preferredColorScheme(.dark)
+        .accentColor(.orange)
     }
 }
 

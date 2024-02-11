@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B92882D12B78B7F30037EF4E /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92882D02B78B7F30037EF4E /* ExerciseView.swift */; };
 		B9AC7E262B78AA99001F1808 /* WorkoutAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC7E252B78AA99001F1808 /* WorkoutAppApp.swift */; };
 		B9AC7E282B78AA99001F1808 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC7E272B78AA99001F1808 /* ContentView.swift */; };
 		B9AC7E2A2B78AA9A001F1808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9AC7E292B78AA9A001F1808 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		B9AC7E372B78AA9A001F1808 /* WorkoutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC7E362B78AA9A001F1808 /* WorkoutAppTests.swift */; };
 		B9AC7E412B78AA9A001F1808 /* WorkoutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC7E402B78AA9A001F1808 /* WorkoutAppUITests.swift */; };
 		B9AC7E432B78AA9A001F1808 /* WorkoutAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC7E422B78AA9A001F1808 /* WorkoutAppUITestsLaunchTests.swift */; };
+		B9AC7E502B78ADA8001F1808 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC7E4F2B78ADA8001F1808 /* HomeView.swift */; };
+		B9AC7E522B78AF1C001F1808 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC7E512B78AF1C001F1808 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B92882D02B78B7F30037EF4E /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		B9AC7E222B78AA99001F1808 /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AC7E252B78AA99001F1808 /* WorkoutAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppApp.swift; sourceTree = "<group>"; };
 		B9AC7E272B78AA99001F1808 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +48,8 @@
 		B9AC7E3C2B78AA9A001F1808 /* WorkoutAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AC7E402B78AA9A001F1808 /* WorkoutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppUITests.swift; sourceTree = "<group>"; };
 		B9AC7E422B78AA9A001F1808 /* WorkoutAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9AC7E4F2B78ADA8001F1808 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B9AC7E512B78AF1C001F1808 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		B9AC7E242B78AA99001F1808 /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				B9AC7E512B78AF1C001F1808 /* SettingsView.swift */,
+				B9AC7E4F2B78ADA8001F1808 /* HomeView.swift */,
+				B92882D02B78B7F30037EF4E /* ExerciseView.swift */,
 				B9AC7E252B78AA99001F1808 /* WorkoutAppApp.swift */,
 				B9AC7E272B78AA99001F1808 /* ContentView.swift */,
 				B9AC7E292B78AA9A001F1808 /* Assets.xcassets */,
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9AC7E502B78ADA8001F1808 /* HomeView.swift in Sources */,
+				B9AC7E522B78AF1C001F1808 /* SettingsView.swift in Sources */,
 				B9AC7E282B78AA99001F1808 /* ContentView.swift in Sources */,
 				B9AC7E262B78AA99001F1808 /* WorkoutAppApp.swift in Sources */,
+				B92882D12B78B7F30037EF4E /* ExerciseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
