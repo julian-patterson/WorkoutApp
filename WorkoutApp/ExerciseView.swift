@@ -17,7 +17,6 @@ struct ExerciseView: View {
                 .padding()
 
         }
-        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
     
 }

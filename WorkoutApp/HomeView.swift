@@ -8,22 +8,30 @@
 import SwiftUI
 
 struct HomeView: View {
-    
     var body: some View {
-        VStack {
-            Text("Home")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .padding()
-
+        List {
+            Section(header: headerView()) {
+                Text("Content")
+            }
         }
-        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
+        .listStyle(GroupedListStyle())
+        .navigationBarTitle("Home", displayMode: .large)
+        .navigationBarHidden(false)
     }
     
+    private func headerView() -> some View {
+        Text("Home")
+            .font(.title)
+            .fontWeight(.bold)
+            .foregroundColor(.white)
+    }
 }
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        NavigationView {
+            HomeView()
+        }
     }
 }
+
